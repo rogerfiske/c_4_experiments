@@ -1,0 +1,57 @@
+{
+  "audit_date": "2025-12-22T11:47:30.927844",
+  "probes": {
+    "supervised_framing": {
+      "target_framing": [
+        {
+          "position": 1,
+          "target_col": "CA_QS1",
+          "framing": "t -> t+1",
+          "verified": true
+        },
+        {
+          "position": 2,
+          "target_col": "CA_QS2",
+          "framing": "t -> t+1",
+          "verified": true
+        },
+        {
+          "position": 3,
+          "target_col": "CA_QS3",
+          "framing": "t -> t+1",
+          "verified": true
+        },
+        {
+          "position": 4,
+          "target_col": "CA_QS4",
+          "framing": "t -> t+1",
+          "verified": true
+        }
+      ],
+      "split_integrity": {
+        "train_before_val": true,
+        "val_before_test": true,
+        "no_overlap": true
+      },
+      "pass": true
+    },
+    "baseline": {
+      "accuracy": 0.09452054794520548,
+      "log_loss": 2.3720618700096465
+    },
+    "target_shuffle": {
+      "accuracy": 0.09657534246575343,
+      "log_loss": 2.3816104637522435,
+      "expected": 0.1,
+      "pass": true
+    },
+    "feature_shift": {
+      "accuracy": 0.10342465753424658,
+      "log_loss": 2.3497141066118035,
+      "improvement": 0.008904109589041101,
+      "pass": true
+    }
+  },
+  "verdict": "CERTIFIED",
+  "all_probes_pass": true
+}

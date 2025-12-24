@@ -1,0 +1,17 @@
+{
+  "artifacts": {
+    "row_sum_exceptions_csv": "artifacts\\invariant_row_sum_exceptions.csv",
+    "metrics_topk_by_position_csv": "artifacts\\metrics_topk_by_position.csv",
+    "metrics_exclusion_by_position_csv": "artifacts\\metrics_exclusion_by_position.csv",
+    "next_day_predictions_json": "artifacts\\next_day_predictions.json",
+    "next_day_predictions_aggregate_ranker_json": "artifacts\\next_day_predictions_aggregate_ranker.json"
+  },
+  "split": {
+    "train_start": "2008-06-09",
+    "train_end": "2024-06-19",
+    "val_start": "2024-06-20",
+    "val_end": "2024-12-16",
+    "test_start": "2024-12-17",
+    "test_end": "2025-12-16"
+  }
+}

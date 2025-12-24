@@ -1,0 +1,5 @@
+# C4 Parts Forecast Cost Model
+ship_cost: 50.0  # Cost to ship one part ($)
+downtime_cost: 500.0  # Cost per day of downtime ($)
+expedite_multiplier: 3.0  # Rush shipping premium
+salvage_rate: 0.8  # Fraction recovered for wrong part

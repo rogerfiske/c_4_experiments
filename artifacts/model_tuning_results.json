@@ -1,0 +1,62 @@
+{
+  "experiment": "model_tuning",
+  "configs": {
+    "HistGB-default": {
+      "top1": 0.34,
+      "top3": 0.7225,
+      "top5": 0.9175,
+      "top7": 0.9825,
+      "top5_perfect": 0.69,
+      "top7_perfect": 0.93
+    },
+    "HistGB-deep": {
+      "top1": 0.3275,
+      "top3": 0.725,
+      "top5": 0.915,
+      "top7": 0.985,
+      "top5_perfect": 0.7,
+      "top7_perfect": 0.94
+    },
+    "HistGB-shallow": {
+      "top1": 0.3125,
+      "top3": 0.695,
+      "top5": 0.905,
+      "top7": 0.965,
+      "top5_perfect": 0.68,
+      "top7_perfect": 0.86
+    },
+    "LGB-default": {
+      "top1": 0.345,
+      "top3": 0.72,
+      "top5": 0.9075,
+      "top7": 0.98,
+      "top5_perfect": 0.67,
+      "top7_perfect": 0.92
+    },
+    "LGB-more-trees": {
+      "top1": 0.33,
+      "top3": 0.735,
+      "top5": 0.925,
+      "top7": 0.9725,
+      "top5_perfect": 0.75,
+      "top7_perfect": 0.9
+    },
+    "LGB-deep": {
+      "top1": 0.2775,
+      "top3": 0.74,
+      "top5": 0.915,
+      "top7": 0.9775,
+      "top5_perfect": 0.66,
+      "top7_perfect": 0.91
+    },
+    "LGB-regularized": {
+      "top1": 0.3275,
+      "top3": 0.71,
+      "top5": 0.9225,
+      "top7": 0.975,
+      "top5_perfect": 0.73,
+      "top7_perfect": 0.9
+    }
+  },
+  "best_config": "LGB-more-trees"
+}

@@ -1,0 +1,59 @@
+{
+  "experiment": "model_comparison_priority2",
+  "feature_set": "lags_rolling_means",
+  "n_features": 31,
+  "models": {
+    "HistGB": {
+      "n_days": 100,
+      "top1": 0.3325,
+      "top3": 0.7325,
+      "top5": 0.915,
+      "top7": 0.9875,
+      "top5_perfect": 0.72,
+      "top7_perfect": 0.95
+    },
+    "XGBoost": {
+      "n_days": 100,
+      "top1": 0.3375,
+      "top3": 0.71,
+      "top5": 0.9,
+      "top7": 0.9725,
+      "top5_perfect": 0.67,
+      "top7_perfect": 0.92
+    },
+    "LightGBM": {
+      "n_days": 100,
+      "top1": 0.325,
+      "top3": 0.7325,
+      "top5": 0.915,
+      "top7": 0.9875,
+      "top5_perfect": 0.71,
+      "top7_perfect": 0.95
+    },
+    "Per-Position": {
+      "n_days": 100,
+      "top1": 0.335,
+      "top3": 0.7475,
+      "top5": 0.9125,
+      "top7": 0.9875,
+      "top5_perfect": 0.68,
+      "top7_perfect": 0.95
+    },
+    "Calibrated": {
+      "n_days": 100,
+      "top1": 0.325,
+      "top3": 0.6625,
+      "top5": 0.865,
+      "top7": 0.96,
+      "top5_perfect": 0.53,
+      "top7_perfect": 0.84
+    }
+  },
+  "best_model": "HistGB",
+  "baseline": {
+    "top1": 0.282,
+    "top3": 0.695,
+    "top5": 0.912,
+    "top7": 0.972
+  }
+}
